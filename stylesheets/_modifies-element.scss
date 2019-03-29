@@ -21,7 +21,7 @@
 
     @each $element in $modified-elements {
         $element: map-get(map-get($_bem-current-context, 'block'), 'selector') + $bem-element-separator + $element;
-        $selectors: append($selectors, $element, 'comma');
+        $selectors: append($selectors, unquote($element), 'comma');
     }
 
     $s: &; // Workaround for libsass
