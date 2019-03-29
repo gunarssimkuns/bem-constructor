@@ -21,5 +21,6 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^1.1.0"
-  }
+  },
+  "sass": "dist/_sass-bem-constructor.scss"
 }
